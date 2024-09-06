@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da Ferrari perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/imagemum.webp" alt="">
+            <p>Um dia desses, assistindo a uma corrida, eu descobri uma pista antiga sobre um carro perdido, escondido por ganhar demais e ser bonito. Nessa carta, um piloto deixa algumas pistas para encontrar esse carro e eu decidi segui-las!</p>
+            <button class="btn-proximo" data-proximo="1">Monza</button>
+            <button class="btn-proximo" data-proximo="2">Maranello</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada em Monza, ao amanhecer para encontrar a primeira pista.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Em Maranello você visita a histórica cidade da Ferrari. Na carta, uma das pistas indica que para localizar o carro você deve procurar a próxima pista em um dos pontos turísticos da cidade. Por qual você começa?</p>
+            <button class="btn-proximo" data-proximo="5">Investigar os muses</button>
+            <button class="btn-proximo" data-proximo="6">Explorar a casa dos Tifosi, grandes fãs</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Nos museus, você encontra um antigo registro apontando que a próxima pista está
+                localizada no Autodromo de Interlagos.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Autodromo de Interlagos</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/imagemum.webp" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
+                encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Nas casas dos Tifosi, você descobre um mapa antigo escondido atrás de um altar, apontando que a próxima
+                pista está em Mônaco.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para Mônaco</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando Mônaco, você encontra uma caverna escondida, mas ela leva a um beco sem saída.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar as ruas</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>No Autodromo de Interlagos, a busca pelo carro se intensifica. Você se depara com uma curva chamada S do Senna.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo curva à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo curva à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta à Mônaco, você finalmente encontra o mapa que leva ao carro. Agora, para a Austrália!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a Austrália</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>A curva à esquerda leva você a uma cachoeira escondida com inscrições antigas que revelam onde o carro está
+                </p>
+            <button class="btn-proximo" data-proximo="11">Explorar o carro</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>A curva à direita termina em um rio lindo. Apesar de belas vistas, não há sinais do amado carro vermelho
+                aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar a outra curva</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/imagemtres.jpg" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Dentro do carro, você descobre uma força absurda e decide se dedicar a aprender a dirigir esse lindo veiculo
+                </p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo a curva à esquerda, você finalmente encontra o altar dos Tifosi e as clamações que transformam a Itália no berço da Ferrari
+                </p>
+            <button class="btn-proximo" data-proximo="11">Explorar o altar Tifosi</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
